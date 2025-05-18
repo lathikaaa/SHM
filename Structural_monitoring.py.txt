@@ -1,0 +1,45 @@
+import random
+import time
+
+# Simulated sensor locations
+sensors = ["Beam 1", "Beam 2", "Column A", "Column B"]
+
+# Thresholds for safety (example values)
+thresholds = {
+    "acceleration": 5.0,   # m/s^2 (vibration threshold)
+    "strain": 2500,        # microstrain
+    "temperature": 60.0    # degrees Celsius
+}
+
+# Function to simulate readings
+def get_sensor_data():
+    return {
+        "acceleration": round(random.uniform(0, 10), 2),
+        "strain": round(random.uniform(1000, 3000), 2),
+        "temperature": round(random.uniform(20, 80), 2)
+    }
+
+# Main monitoring loop
+print("Starting Structural Health Monitoring System...")
+print("----------------------------------------------")
+
+for i in range(5):  # Simulate 5 cycles of monitoring
+    print(f"\n--- Cycle {i+1} ---")
+    for sensor in sensors:
+        data = get_sensor_data()
+        print(f"\nSensor: {sensor}")
+        print(f"Acceleration: {data['acceleration']} m/s^2")
+        print(f"Strain: {data['strain']} µε")
+        print(f"Temperature: {data['temperature']} °C")
+
+        # Check thresholds
+        if data["acceleration"] > thresholds["acceleration"]:
+            print("ALERT: Excessive vibration detected!")
+        if data["strain"] > thresholds["strain"]:
+            print("ALERT: High strain detected!")
+        if data["temperature"] > thresholds["temperature"]:
+            print("ALERT: Overheating detected!")
+        
+        time.sleep(0.5)
+
+print("\nMonitoring complete.")
