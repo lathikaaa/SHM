@@ -1,0 +1,137 @@
+Starting Structural Health Monitoring System...
+----------------------------------------------
+
+--- Cycle 1 ---
+
+Sensor: Beam 1
+Acceleration: 7.76 m/s^2
+Strain: 2823.42 µε
+Temperature: 57.35 °C
+ALERT: Excessive vibration detected!
+ALERT: High strain detected!
+
+Sensor: Beam 2
+Acceleration: 4.6 m/s^2
+Strain: 2293.41 µε
+Temperature: 26.37 °C
+
+Sensor: Column A
+Acceleration: 5.98 m/s^2
+Strain: 2568.62 µε
+Temperature: 24.73 °C
+ALERT: Excessive vibration detected!
+ALERT: High strain detected!
+
+Sensor: Column B
+Acceleration: 6.18 m/s^2
+Strain: 1223.89 µε
+Temperature: 49.04 °C
+ALERT: Excessive vibration detected!
+
+--- Cycle 2 ---
+
+Sensor: Beam 1
+Acceleration: 3.95 m/s^2
+Strain: 1652.06 µε
+Temperature: 48.02 °C
+
+Sensor: Beam 2
+Acceleration: 9.62 m/s^2
+Strain: 1365.41 µε
+Temperature: 43.31 °C
+ALERT: Excessive vibration detected!
+
+Sensor: Column A
+Acceleration: 5.56 m/s^2
+Strain: 1679.34 µε
+Temperature: 63.1 °C
+ALERT: Excessive vibration detected!
+ALERT: Overheating detected!
+
+Sensor: Column B
+Acceleration: 1.23 m/s^2
+Strain: 2322.67 µε
+Temperature: 76.68 °C
+ALERT: Overheating detected!
+
+--- Cycle 3 ---
+
+Sensor: Beam 1
+Acceleration: 0.83 m/s^2
+Strain: 1034.87 µε
+Temperature: 46.82 °C
+
+Sensor: Beam 2
+Acceleration: 9.14 m/s^2
+Strain: 1443.66 µε
+Temperature: 76.67 °C
+ALERT: Excessive vibration detected!
+ALERT: Overheating detected!
+
+Sensor: Column A
+Acceleration: 3.51 m/s^2
+Strain: 1907.76 µε
+Temperature: 62.73 °C
+ALERT: Overheating detected!
+
+Sensor: Column B
+Acceleration: 3.8 m/s^2
+Strain: 1870.33 µε
+Temperature: 66.96 °C
+ALERT: Overheating detected!
+
+--- Cycle 4 ---
+
+Sensor: Beam 1
+Acceleration: 1.51 m/s^2
+Strain: 1463.72 µε
+Temperature: 30.92 °C
+
+Sensor: Beam 2
+Acceleration: 1.77 m/s^2
+Strain: 1186.85 µε
+Temperature: 24.98 °C
+
+Sensor: Column A
+Acceleration: 8.2 m/s^2
+Strain: 1128.9 µε
+Temperature: 32.17 °C
+ALERT: Excessive vibration detected!
+
+Sensor: Column B
+Acceleration: 2.63 m/s^2
+Strain: 1269.24 µε
+Temperature: 41.88 °C
+
+--- Cycle 5 ---
+
+Sensor: Beam 1
+Acceleration: 2.11 m/s^2
+Strain: 2654.46 µε
+Temperature: 78.17 °C
+ALERT: High strain detected!
+ALERT: Overheating detected!
+
+Sensor: Beam 2
+Acceleration: 6.32 m/s^2
+Strain: 2865.11 µε
+Temperature: 41.85 °C
+ALERT: Excessive vibration detected!
+ALERT: High strain detected!
+
+Sensor: Column A
+Acceleration: 8.01 m/s^2
+Strain: 1735.5 µε
+Temperature: 37.46 °C
+ALERT: Excessive vibration detected!
+
+Sensor: Column B
+Acceleration: 7.41 m/s^2
+Strain: 2048.56 µε
+Temperature: 64.04 °C
+ALERT: Excessive vibration detected!
+ALERT: Overheating detected!
+
+Monitoring complete.
+
+=== Code Execution Successful ===
